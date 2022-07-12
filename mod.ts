@@ -1,3 +1,5 @@
+// from https://github.com/justjavac/deno_deploy_cors_proxy/blob/main/main.ts
+
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
 
 function addCorsIfNeeded(response: Response) {
